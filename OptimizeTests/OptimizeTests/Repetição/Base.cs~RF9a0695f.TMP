@@ -1,0 +1,80 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace OptimizeTests.Repetição
+{
+    class Base
+    {
+        List<BaseClassComander> ListComander = new List<BaseClassComander>()
+        {
+            new BaseClassComander()
+            {
+               name = "João",
+               cod = 123,
+            },
+            new BaseClassComander()
+            {
+                name = "Maria",
+                cod = 321,
+            },
+            new BaseClassComander()
+            {
+                name = "Neto",
+                cod = 161,
+            },new BaseClassComander()
+            {
+                name = "Caco",
+                cod = 125,
+            },new BaseClassComander()
+            {
+                name = "Chico",
+                cod = 127,
+            },new BaseClassComander()
+            {
+                name = "Temma",
+                cod = 111,
+            },new BaseClassComander()
+            {
+                name = "Ariana",
+                cod = 90,
+            },new BaseClassComander()
+            {
+                name = "Mariana",
+                cod = 1900,
+            },new BaseClassComander()
+            {
+                name = "Niggerson",
+                cod = 1313,
+            },new BaseClassComander()
+            {
+                name = "Xurelis",
+                cod = 1616,
+            },
+        };
+
+        public void PrintFor()
+        {
+            var comander = new BaseClassComander();
+
+            for (var i = 0; i >= ListComander.Count; i++)
+            {
+                Console.WriteLine("{0}", ListComander;
+            }
+        }
+
+        public void PrintForeach()
+        {
+            var comander = new BaseClassComander();
+
+        }
+
+        public void PrintWhile()
+        {
+            var comander = new BaseClassComander();
+
+        }
+    }
+}

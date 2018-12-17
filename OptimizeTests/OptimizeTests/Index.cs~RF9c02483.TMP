@@ -1,0 +1,45 @@
+using OptimizeTests.Repetição;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace OptimizeTests
+{
+    class Index
+    {
+        static void Main(string[] args)
+        {
+            var stopwatch = new Stopwatch();
+            var BaseClass = new Base();
+
+            BaseClass.PrintWhile();
+            Console.ReadKey();
+            /*
+            stopwatch.Start();
+            BaseClass.PrintFor();
+            stopwatch.Stop();
+            Console.WriteLine($"Tempo passado: {stopwatch.Elapsed}");
+            
+            stopwatch.Start();
+            BaseClass.PrintForeach();
+            stopwatch.Stop();
+            Console.WriteLine($"Tempo passado: {stopwatch.Elapsed}");
+            stopwatch.Restart();
+
+            stopwatch.Start();
+            BaseClass.PrintWhile();
+            stopwatch.Stop();
+            Console.WriteLine($"Tempo passado: {stopwatch.Elapsed}");
+            stopwatch.Restart();
+            
+            stopwatch.Start();
+            BaseClass.PrintLinq();
+            stopwatch.Stop();
+            Console.WriteLine($"Tempo passado: {stopwatch.Elapsed}");
+            */
+        }
+    }
+}

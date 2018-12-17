@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace OptimizeTests.Repetição
+{
+    class Base
+    {
+        public void PrintFor()
+        {
+            List<BaseClassComander> ListComander = new List<BaseClassComander>();
+            var comander = new BaseClassComander();
+
+            for (var i = 0;  ; i++)
+            {
+
+            }
+        }
+
+        public void PrintForeach()
+        {
+            List<BaseClassComander> ListComander = new List<BaseClassComander>();
+            var comander = new BaseClassComander();
+
+        }
+
+        public void PrintWhile()
+        {
+            List<BaseClassComander> ListComander = new List<BaseClassComander>();
+            var comander = new BaseClassComander();
+
+        }
+    }
+}
