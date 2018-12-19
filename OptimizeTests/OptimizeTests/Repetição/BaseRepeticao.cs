@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OptimizeTests.Repetição
 {
-    class Base
+    class BaseRepeticao
     {
         List<BaseClassComander> ListComander = new List<BaseClassComander>()
         {

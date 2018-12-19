@@ -5,3 +5,10 @@ C:\Users\U6072189.TEN\source\repos\OptimizeTests\OptimizeTests\obj\Debug\Optimiz
 C:\Users\U6072189.TEN\source\repos\OptimizeTests\OptimizeTests\obj\Debug\OptimizeTests.csproj.CoreCompileInputs.cache
 C:\Users\U6072189.TEN\source\repos\OptimizeTests\OptimizeTests\obj\Debug\OptimizeTests.exe
 C:\Users\U6072189.TEN\source\repos\OptimizeTests\OptimizeTests\obj\Debug\OptimizeTests.pdb
+C:\Users\Snyp\Documents\GitHub\OptimizeTeste-s\OptimizeTests\OptimizeTests\bin\Debug\OptimizeTests.exe.config
+C:\Users\Snyp\Documents\GitHub\OptimizeTeste-s\OptimizeTests\OptimizeTests\bin\Debug\OptimizeTests.exe
+C:\Users\Snyp\Documents\GitHub\OptimizeTeste-s\OptimizeTests\OptimizeTests\bin\Debug\OptimizeTests.pdb
+C:\Users\Snyp\Documents\GitHub\OptimizeTeste-s\OptimizeTests\OptimizeTests\obj\Debug\OptimizeTests.csprojAssemblyReference.cache
+C:\Users\Snyp\Documents\GitHub\OptimizeTeste-s\OptimizeTests\OptimizeTests\obj\Debug\OptimizeTests.csproj.CoreCompileInputs.cache
+C:\Users\Snyp\Documents\GitHub\OptimizeTeste-s\OptimizeTests\OptimizeTests\obj\Debug\OptimizeTests.exe
+C:\Users\Snyp\Documents\GitHub\OptimizeTeste-s\OptimizeTests\OptimizeTests\obj\Debug\OptimizeTests.pdb

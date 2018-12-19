@@ -1,4 +1,5 @@
 using OptimizeTests.Repetição;
+using OptimizeTests.Menu;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -12,8 +13,25 @@ namespace OptimizeTests
     {
         static void Main(string[] args)
         {
+            var index = new Index();
+
+            // Repetição
+            index.BenchmarkRepeticao();
+            Console.ReadKey();
+
+            Console.Clear();
+
+            // Menu
+            index.BenchmarkMenu();
+            Console.ReadKey();
+
+            Console.Clear();
+        }
+
+        internal void BenchmarkRepeticao()
+        {
             var stopwatch = new Stopwatch();
-            var BaseClass = new Base();
+            var BaseClass = new BaseRepeticao();
 
             Console.WriteLine("[For]");
             stopwatch.Start();
@@ -59,6 +77,27 @@ namespace OptimizeTests
 
             Console.WriteLine("[Linq]");
             Console.WriteLine("Tempo Total {0}", timeLinq);
+            Console.ReadKey();
+        }
+
+        internal void BenchmarkMenu()
+        {
+            var stopwatch = new Stopwatch();
+            var BaseClass = new BaseMenu();
+
+            Console.WriteLine("[Swith]");
+            stopwatch.Start();
+            BaseClass.MenuSwith();
+            stopwatch.Stop();
+            var timeSwith = stopwatch.Elapsed;
+            Console.WriteLine("Tempo passado: {0} \n", timeSwith);
+
+            Console.WriteLine("[If]");
+            stopwatch.Start();
+            BaseClass.MenuIf();
+            stopwatch.Stop();
+            var timeIf = stopwatch.Elapsed;
+            Console.WriteLine("Tempo passado: {0} \n", timeIf);
             Console.ReadKey();
         }
     }
