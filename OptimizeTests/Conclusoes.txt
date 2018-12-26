@@ -1,0 +1,18 @@
+----------------------------------------------------------------------
+Repetição:
+----------------------------------------------------------------------
+
+For -> mais rapido para vetores e matrizes;
+Foreach -> mais rapido para percorrer listas;
+While -> mais rapido para repetições unicondicionais; 
+Linq -> mais rapido em manipular modificações em listas.
+
+----------------------------------------------------------------------
+Menu:
+----------------------------------------------------------------------
+
+For -> mais lento para geração de menus;
+Swith -> mais rapido para geração de menus.
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------

@@ -87,7 +87,7 @@ namespace OptimizeTests
 
             Console.WriteLine("[Swith]");
             stopwatch.Start();
-            BaseClass.MenuSwicth();
+            BaseClass.MenuSwith();
             stopwatch.Stop();
             var timeSwith = stopwatch.Elapsed;
             Console.WriteLine("Tempo passado: {0} \n", timeSwith);

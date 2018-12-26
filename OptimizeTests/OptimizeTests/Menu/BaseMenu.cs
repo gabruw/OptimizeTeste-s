@@ -8,7 +8,7 @@ namespace OptimizeTests.Menu
 {
     class BaseMenu
     {
-        public void MenuSwith()
+        public void MenuSwicth()
         {
             var opcao = 5;
             switch (opcao)
