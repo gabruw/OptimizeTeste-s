@@ -9,20 +9,5 @@ namespace OptimizeTests.Web
 {
     class HtmlConnect
     {
-        public void GetData()
-        {
-
-        }
-
-        internal void NavPagina()
-        {
-
-        }
-
-        internal string GetUrl()
-        {
-
-        }
-
     }
 }
